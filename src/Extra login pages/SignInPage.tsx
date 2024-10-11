@@ -3,8 +3,8 @@ import campuslogo from '@/Logos/campusLog-logo.png';
 import college from '@/Logos/collegeImage.png';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import SkeletonLoader from '../Frontend/LoginForm/LoginSkeleton';
 import Login from './Login';
-import SkeletonLoader from './LoginSkeleton';
 import ResetPassword from './ResetPassword';
 import SignUp from './SignUp';
 

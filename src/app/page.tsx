@@ -1,6 +1,6 @@
 // import SignInPage from './Frontend/LoginForm/SignInPage';
 
-import SignInPage from "./Frontend/LoginForm/LoginPage";
+import LoginForm from "./Frontend/LoginForm/LoginPage";
 
 
 
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
         {/* <LandingPage/> */}
-        <SignInPage/>
+        <LoginForm/>
         {/* <Dashboard/> */}
     </>
   );

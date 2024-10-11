@@ -637,7 +637,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import SkeletonLoader from './LoginSkeleton';
 
-export default function SignInPage() {
+export default function LoginForm() {
     const [activePanel, setActivePanel] = useState<'login' | 'signup' | 'forgot'>('login');
     const [loading, setLoading] = useState(true);
 
